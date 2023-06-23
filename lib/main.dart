@@ -6,16 +6,16 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Color.fromARGB(255, 48, 2, 56),
-        body: Center(
-          child: Image(
-            image: AssetImage('images/diamond.png'),
+        backgroundColor: const Color.fromARGB(255, 251, 252, 252),
+        appBar: AppBar(
+          backgroundColor: Color.fromARGB(255, 34, 21, 21),
+          title: Center(
+            child: Text("I'm Success"),
           ),
         ),
-        appBar: AppBar(
-          backgroundColor: Colors.black,
-          title: Center(
-            child: Text("Diamond App"),
+        body: Center(
+          child: Image(
+            image: AssetImage('images/teamwork.png'),
           ),
         ),
       ),
